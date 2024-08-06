@@ -1,0 +1,27 @@
+/* Or, disable text selection for specific elements */
+.elementToDisableSelection {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version */
+}
+
+.elevated {
+  z-index: 1301 !important;
+}
+
+.locationInvalid::after {
+  /* text */
+  content: 'Invalid Location';
+  text-align: center;
+  white-space: nowrap;
+  /* display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* bg */
+  background-color: red;
+  position: absolute;
+  inset: 0;
+  opacity: 0.8;
+}
