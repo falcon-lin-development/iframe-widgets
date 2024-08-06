@@ -1,0 +1,20 @@
+[
+  {
+    "community_id": "1770071e-0000-0000-0000-1770071e7000",
+    "msg_id": "1",
+    "msg_type": "personality",
+    "msg_title": "Check out your unique Mootiez and full personality report now!",
+    "msg_img_url": "/others/inboxes/1/image.png",
+    "is_content_external_link": false,
+    "content_external_link": "",
+    "msg_content": {},
+    "has_cta": false,
+    "cta_content": {},
+    "custom_data": {
+      "type": "personality-report"
+    },
+    "is_read": true,
+    "read_at": 0,
+    "mark_deleted": false
+  }
+]

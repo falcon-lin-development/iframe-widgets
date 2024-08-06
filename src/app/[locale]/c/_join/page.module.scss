@@ -1,0 +1,24 @@
+.scaffold {
+  --background-pos-x: 50%;
+  --background-pos-y: 50%;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/others/join/bg.png');
+    background-repeat: no-repeat;
+    background-size: auto 110%;
+    background-position: var(--background-pos-x) var(--background-pos-y);
+
+    opacity: 0.6;
+    filter: blur(2px);
+    // @apply tw-max-w-mobile;
+    min-height: '100svh';
+    max-width: 430px; /* Apply the max-width here */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,33 +1,94 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer tailwind {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+    }
+  }
 
-@layer utilities {
+  html {
+    padding: 0 !important;
+    overflow: unset !important;
+  }
+
+  body {
+    color: rgb(var(--foreground-rgb));
+    padding: 0 !important;
+    /* overflow-y: scroll !important; */
+    @apply tw-bg-defautBackground;
+  }
+
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* ---- Own Definition ---- */
+  .center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 24px;
+  }
+
+  .body-small {
+    letter-spacing: 0.0125rem; /* 0.2px */
+    @apply tw-font-inter tw-text-xs tw-font-normal;
+  }
+
+  .body-medium {
+    letter-spacing: 0.015625rem; /* 0.25px */
+    @apply tw-font-libre tw-text-sm  tw-font-normal;
+  }
+
+  .body-large {
+    letter-spacing: 0.03125rem; /* 0.5px */
+    @apply tw-font-inter tw-text-base tw-font-normal;
+  }
+
+  .label-medium {
+    letter-spacing: 0.00625rem; /* 0.1px */
+    @apply tw-font-inter tw-text-xs tw-font-medium;
+  }
+
+  .label-large {
+    /* font-family: Inter; */
+    font-style: normal;
+    letter-spacing: 0.1px;
+    @apply tw-font-inter tw-text-sm tw-font-medium;
+  }
+
+  .title-medium {
+    letter-spacing: 0.00625rem; /* 0.1px */
+    @apply tw-font-libre tw-text-base tw-font-medium;
+  }
+
+  .title-large {
+    @apply tw-font-libre tw-text-xl tw-font-normal;
+  }
+
+  .headline-small {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 32px;
+    @apply tw-font-libre tw-font-normal;
+  }
+
+  .display-small {
+    font-size: 36px;
+    font-style: normal;
+    line-height: 44px;
+    @apply tw-font-libre tw-font-normal;
   }
 }

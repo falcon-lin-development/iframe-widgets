@@ -27,6 +27,9 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+.env.dev
+.env.prod
 
 # vercel
 .vercel
@@ -34,3 +37,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+_archived/
+.falcon/
+locales/
+
+# amplify
+.amplify
+amplifyconfiguration*
+
+_archived

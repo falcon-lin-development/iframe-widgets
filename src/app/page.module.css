@@ -1,0 +1,11 @@
+@layer tailwind {
+  .mobileLayout {
+    @apply tw-max-w-mobile; /* iPhone Pro max */
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+  }
+}

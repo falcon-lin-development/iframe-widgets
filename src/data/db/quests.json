@@ -1,0 +1,94 @@
+[
+  {
+    "community_id": "1770071e-0000-0000-0000-1770071e7000",
+    "quest_id": "11",
+    "quest_type": "wouldyourather",
+    "quest_category": "game",
+    "has_no_expiry": false,
+    "show_date_only": false,
+    "privacy": {},
+    "criteria": {},
+    "quest_title": "Play Now",
+    "extra_status_display": "",
+    "thumbnail_img_path": "/others/quests/11/image.png",
+    "detail_img_path": "/others/quests/11/content.png",
+    "has_quota": false,
+    "quota": {
+      "total": "0",
+      "completed": "0"
+    },
+    "reward_definition": {},
+    "created_by": "7021cd1f-23ee-4eff-86ad-b4caa1dcbfb6",
+    "updated_by": "7021cd1f-23ee-4eff-86ad-b4caa1dcbfb6",
+    "created_at": 1706000458913,
+    "updated_at": 1706000458913,
+    "is_hidden": false,
+    "user_state": {
+      "status": "active",
+      "has_responded": false,
+      "responded_at": 0,
+      "criteria_passed": true
+    }
+  },
+  {
+    "community_id": "1770071e-0000-0000-0000-1770071e7000",
+    "quest_id": "10",
+    "quest_type": "myreport",
+    "quest_category": "share",
+    "has_no_expiry": false,
+    "show_date_only": false,
+    "privacy": {},
+    "criteria": {},
+    "quest_title": "share Mootiez with friends",
+    "extra_status_display": "",
+    "thumbnail_img_path": "/others/quests/10/image.png",
+    "detail_img_path": "/others/quests/10/image.png",
+    "has_quota": false,
+    "quota": {
+      "total": "0",
+      "completed": "0"
+    },
+    "reward_definition": {},
+    "created_by": "7021cd1f-23ee-4eff-86ad-b4caa1dcbfb6",
+    "updated_by": "7021cd1f-23ee-4eff-86ad-b4caa1dcbfb6",
+    "created_at": 1706000458913,
+    "updated_at": 1706000458913,
+    "is_hidden": false,
+    "user_state": {
+      "status": "active",
+      "has_responded": false,
+      "responded_at": 0,
+      "criteria_passed": true
+    }
+  },
+  {
+    "community_id": "1770071e-0000-0000-0000-1770071e7000",
+    "quest_id": "1",
+    "quest_type": "social",
+    "has_no_expiry": false,
+    "show_date_only": false,
+    "privacy": {},
+    "criteria": {},
+    "quest_title": "Follow our socials for the latest news!",
+    "extra_status_display": "",
+    "thumbnail_img_path": "/others/quests/1/image.png",
+    "detail_img_path": "/others/quests/1/image.png",
+    "has_quota": false,
+    "quota": {
+      "total": "0",
+      "completed": "0"
+    },
+    "reward_definition": {},
+    "created_by": "7021cd1f-23ee-4eff-86ad-b4caa1dcbfb6",
+    "updated_by": "7021cd1f-23ee-4eff-86ad-b4caa1dcbfb6",
+    "created_at": 1706000458913,
+    "updated_at": 1706000458913,
+    "is_hidden": false,
+    "user_state": {
+      "status": "active",
+      "has_responded": false,
+      "responded_at": 0,
+      "criteria_passed": true
+    }
+  }
+]

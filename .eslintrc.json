@@ -1,3 +1,21 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "eslint:recommended",
+    "plugin:prettier/recommended" // Integrates Prettier with ESLint
+  ],
+  "globals": {
+    "React": "readonly"
+  },
+  "rules": {
+    "prettier/prettier": "error", // Turn on the prettier rules
+    "no-unused-vars": "off",
+    "no-extra-boolean-cast": "off",
+    "react/no-unescaped-entities": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off"
+  }
 }

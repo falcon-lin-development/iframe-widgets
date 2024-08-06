@@ -1,0 +1,19 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+        - npm run pull-locales
+    build:
+      commands:
+        - env | grep -e CUSTOMER_IO_SITE_ID -e CUSTOMER_IO_API_KEY >> .env.production
+        - npm run build
+        - rm -rf node_modules/canvas/build/Release
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
